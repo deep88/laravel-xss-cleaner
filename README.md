@@ -13,6 +13,7 @@ The Laravel-XSS-Cleaner is very easy to use and it supports the object oriented 
 {{Form::open(['route' => 'posts.store'])}}
 {{Form::text('title')}}
 {{Form::textarea('body')}}
+{{Form::submit('Post')}}
 {{Form::close()}}
 ```
 
