@@ -6,10 +6,10 @@
 
 class xss extends Request
 {
-	public $_data 						= [];
-	protected $_options 			= [];
-	public $_erroredFields		= [];
-	public $_errors						= 0;
+	public $_data 					= [];
+	protected $_options 		= [];
+	public $_erroredFields	= [];
+	public $_errors					= 0;
 	public $_object;
 
 	/**
