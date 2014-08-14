@@ -22,7 +22,7 @@ $validator = Validator(Input::all(), $rules);
 
 if($validator->passes()){
   $xss = new XSS;
-  $xss->clean(Input::al());
+  $xss->clean(Input::all());
   $input = $xss->get();
   
   $post = new Post;
