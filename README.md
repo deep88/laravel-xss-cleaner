@@ -10,7 +10,7 @@ Because of the simplicity of the class you can include it within your models fol
 The Laravel-XSS-Cleaner is very easy to use and it supports the object oriented notation. Let's take a very basic example:
 
 ```
-{{Form::open(['route' => 'posts.create'])}}
+{{Form::open(['route' => 'posts.store'])}}
 {{Form::text('title')}}
 {{Form::textarea('body')}}
 {{Form::close()}}
