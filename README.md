@@ -33,3 +33,6 @@ if($validator->passes()){
   // to test the results you can dd($input); & happy coding everyone!
 }
 ```
+
+
+See also for more data filtring: https://github.com/waiylgeek/xss-cleaner
