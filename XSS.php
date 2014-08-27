@@ -66,7 +66,6 @@ class xss extends Request
 						if (empty(Input::get($key)) || ($this->_data[$key] == false)) {
 							$this->_errors++; 
 							$this->_erroredFields[$key] = $key;
-							$this->_erroredFields[$key] = $filter_type;
 							return NULL;
 						}
 					}
